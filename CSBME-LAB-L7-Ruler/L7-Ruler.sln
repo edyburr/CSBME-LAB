@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7-Ruler", "L7-Ruler.csproj", "{1D556781-FDAD-49E0-BBD0-CA5708F9CBBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D556781-FDAD-49E0-BBD0-CA5708F9CBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D556781-FDAD-49E0-BBD0-CA5708F9CBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D556781-FDAD-49E0-BBD0-CA5708F9CBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D556781-FDAD-49E0-BBD0-CA5708F9CBBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10772A68-5309-4B35-B160-FA8E322F82C2}
+	EndGlobalSection
+EndGlobal
