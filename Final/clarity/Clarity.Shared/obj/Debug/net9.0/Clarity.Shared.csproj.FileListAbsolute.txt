@@ -1,0 +1,11 @@
+C:\Users\Edy\OneDrive\Desktop\Projects\clarity\Clarity.Shared\bin\Debug\net9.0\Clarity.Shared.deps.json
+C:\Users\Edy\OneDrive\Desktop\Projects\clarity\Clarity.Shared\bin\Debug\net9.0\Clarity.Shared.dll
+C:\Users\Edy\OneDrive\Desktop\Projects\clarity\Clarity.Shared\bin\Debug\net9.0\Clarity.Shared.pdb
+C:\Users\Edy\OneDrive\Desktop\Projects\clarity\Clarity.Shared\obj\Debug\net9.0\Clarity.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edy\OneDrive\Desktop\Projects\clarity\Clarity.Shared\obj\Debug\net9.0\Clarity.Shared.AssemblyInfoInputs.cache
+C:\Users\Edy\OneDrive\Desktop\Projects\clarity\Clarity.Shared\obj\Debug\net9.0\Clarity.Shared.AssemblyInfo.cs
+C:\Users\Edy\OneDrive\Desktop\Projects\clarity\Clarity.Shared\obj\Debug\net9.0\Clarity.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Edy\OneDrive\Desktop\Projects\clarity\Clarity.Shared\obj\Debug\net9.0\Clarity.Shared.dll
+C:\Users\Edy\OneDrive\Desktop\Projects\clarity\Clarity.Shared\obj\Debug\net9.0\refint\Clarity.Shared.dll
+C:\Users\Edy\OneDrive\Desktop\Projects\clarity\Clarity.Shared\obj\Debug\net9.0\Clarity.Shared.pdb
+C:\Users\Edy\OneDrive\Desktop\Projects\clarity\Clarity.Shared\obj\Debug\net9.0\ref\Clarity.Shared.dll

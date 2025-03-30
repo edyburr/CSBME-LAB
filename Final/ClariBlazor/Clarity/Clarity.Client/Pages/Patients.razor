@@ -1,0 +1,51 @@
+﻿@page "/"
+
+<PageTitle>@RendererInfo.Name</PageTitle>
+
+@if (_patients is null)
+{
+    <MudProgressCircular Color="Color.Default" Indeterminate="true" />
+}
+else
+{
+    <MudTable Class="border-solid border-2 rounded-lg" Style="border: solid #ccc;" Loading="@_isLoading" Items="FilteredData" Hover="true" SortLabel="Sort By" Elevation="0" AllowUnsorted="false" RowsPerPage="8" Virtualize="true">
+        <ToolBarContent>
+            <MudTextField @bind-Value="Surf.SearchQuery" @oninput="Surf.Thrillseeker" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Immediate="true" Margin="Margin.Dense"> </MudTextField>
+            <MudSpacer />
+            <MudIconButton Icon="@Icons.Material.Outlined.Notifications" />
+            <MudIconButton Icon="@Icons.Material.Outlined.PeopleAlt" />
+        </ToolBarContent>
+        <HeaderContent >
+            <MudTh>Id</MudTh>
+            <MudTh>Name</MudTh>
+            <MudTh>Age</MudTh>
+            <MudTh>Gender</MudTh>
+            <MudTh>Measurements</MudTh>
+            <MudTh>Severity</MudTh>
+            <MudTh>Room</MudTh>
+            <MudTh>Wing</MudTh>
+        </HeaderContent>
+        <NoRecordsContent>
+            No patient records available.
+        </NoRecordsContent>
+        <RowTemplate>
+            <MudTd DataLabel="Patient Id">@context.Id</MudTd>
+            <MudTd DataLabel="Name">@context.Name</MudTd>
+            <MudTd DataLabel="Age">@context.Age</MudTd>
+            <MudTd DataLabel="Gender">@context.Gender</MudTd>
+            <MudTd DataLabel="Measurements">@context.Measurements</MudTd>
+            <MudTd DataLabel="Severity">@context.Severity</MudTd>
+            <MudTd DataLabel="Room">@context.Room</MudTd>
+            <MudTd DataLabel="Wing">@context.Wing</MudTd>
+        </RowTemplate>
+        <PagerContent>
+            <MudTablePager PageSizeOptions="new [] {8, 16, 24, 32}" />
+        </PagerContent>
+    </MudTable>
+}
+
+<style>
+    .mud-table-cell {
+        padding: 13.75px;
+    }
+</style>

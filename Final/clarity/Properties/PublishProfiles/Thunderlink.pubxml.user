@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Edy\OneDrive\Desktop\neobitdotgg\lab\api\publish</_PublishTargetUrl>
+    <History>True|2025-01-31T17:43:53.0362233Z||;True|2025-01-31T16:51:11.4339164+02:00||;True|2025-01-29T22:00:37.1444431+02:00||;True|2025-01-29T21:16:06.1616184+02:00||;True|2025-01-03T22:25:03.9097867+02:00||;True|2025-01-03T22:24:08.9174033+02:00||;True|2025-01-02T20:33:47.6829910+02:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="garmr">
+      <Value>Server=data.neobit.gg%3bPort=7025%3bDatabase=neobase%3bUser=garmr%3bPassword=garmr-neoguard%405WB2FD!R%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
